@@ -6,7 +6,7 @@ JIRA :
 
 Server : http://localhost:8000/
 
-GIT:
+GIT: https://github.com/danstein/ball-emitter.git
 
 
 ## Build requirements
