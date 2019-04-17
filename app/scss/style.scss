@@ -1,0 +1,83 @@
+$bannerWidth: 300px;
+$bannerHeight: 500px;
+$left_margin: 8px;
+
+$white: #ffffff;
+$offwhite: #f2f4f5;
+$black: #000000;
+$dark_gray: #6a6767;
+$light_gray: #ececec;
+$light_blue: #00b7ea;
+$dark_blue: #0a519f;
+$bright_blue: #07a2f1;
+
+body {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.page-content {
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  width: 80%;
+}
+
+#banner {
+  background: $offwhite;
+  border: 1px solid #000000;
+  height: $bannerHeight - 2;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: $bannerWidth - 2;
+}
+
+#myCanvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: $offwhite;
+}
+
+#data {
+  left: $bannerWidth + 20px;
+  position: absolute;
+  top: 30px;
+  width: 200px;
+}
+
+#gravity-value {
+  display: inline;
+}
+
+#friction-value {
+  display: inline;
+}
+
+.gravity, .friction {
+  display: block;
+  font-size: 22px;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+}
+
+.inputs {
+  left: $bannerWidth + 20px;
+  position: relative;
+  top: 300px;
+  width: 150px;
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px 0;
+  }
+
+  input[type=number] {
+    font-size: 22px;
+    padding: 10px 5px;text-align: right;
+    width: 120px;
+  }
+}
