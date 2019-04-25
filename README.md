@@ -20,7 +20,7 @@ To build and run the site locally, you'll need:
 
 `npm install` for node_modules
 
-`packages.json` must be filled in correctly by Developers
+`packages.json` must be filled in correctly by developer(s)
 
 
 ## Build
